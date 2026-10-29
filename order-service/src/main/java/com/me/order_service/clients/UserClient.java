@@ -11,6 +11,6 @@ import java.util.Map;
 public interface UserClient {
 
 
-    @GetMapping("/api/users/{id}")
+    @GetMapping("/users/{id}")
     Map<String, Object> getUser(@PathVariable Long id);
 }
